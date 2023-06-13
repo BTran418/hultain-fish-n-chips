@@ -11,9 +11,9 @@ const Footer = () => (
     <div className='app__footer-links'>
       <div className='app__footer-links_contact'>
         <h1 className='app__footer-headtext' style={{color: '#FFF'}}>Contact Us</h1>
-        <p className='p__opensans'>9 W 53rd St, New York, NY 10019, USA</p>
-        <p className='p__opensans'>+1 212-344-1230</p>
-        <p className='p__opensans'>+1 212-555-1230</p>
+        <a href="https://goo.gl/maps/gVq9Vd3pNbAzWz2N7" target='_blank' style={{color: '#FFF'}} rel="noreferrer"><p className='p__opensans'>1127 Haultain Street, Victoria BC</p></a>
+        <p className='p__opensans'>+1 250-383-8332</p>
+        <a href="mailto:haultainfishchips@hotmail.com" style={{color: '#FFF'}}><p className='p__opensans email'>haultainfishchips@hotmail.com</p></a>
       </div>
       <div className='app__footer-links_logo'>
         <img src={ images.gericht } alt="footer_logo" />
@@ -27,13 +27,14 @@ const Footer = () => (
       </div>
       <div className='app__footer-links_work'>
         <h1 className='app__footer-headtext' style={{color: '#FFF'}}>Working Hours</h1>
-        <p className='p__opensans'>Mon -  Fri: 8:00 AM - 5:00 PM</p>
-        <p className='p__opensans'>Sat - Sun: 8:00 AM - 5:00 PM</p>
-        <p className='p__opensans'>+1 212-555-1230</p>
+        <p className='p__opensans'>Monday: Closed</p>
+        <p className='p__opensans'>Tue - Sat: 11:30 AM - 7:30 PM</p>
+        <p className='p__opensans'>Sunday: 4:00 PM - 7:30 PM</p>
+        <p className='p__opensans'>+1 250-383-8332</p>
       </div>
     </div>
     <div className='footer_copyright'>
-      <p className='p__opensans'>2021 Gerícht. All Rights reserved.</p>
+      <p className='p__opensans'>2023 Haultain Fish & Chips. All Rights reserved.</p>
     </div>
   </div>
 );
