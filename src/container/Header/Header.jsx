@@ -9,7 +9,7 @@ const Header = () => (
       <SubHeading title="Taste the Best Fish and Chips!"/>
       <h1 className='app__header-h1'>The Key to Fine Dinning</h1>
       <p className='p__opensans' style={{ margin: '2rem 0' }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum adipisci provident numquam consequuntur id inventore, asperiores porro soluta corrupti aliquid rem eaque incidunt magni quasi ratione earum reprehenderit illo aut.</p>
-      <button type="button" className='custom__button'>Explore Menu</button>
+      <button type="button" className='custom__button'><a href='#menu'>Explore Menu</a></button>
     </div>
     <div className='app__wrapper_img'>
       <img src={ images.welcome } alt="header img" />
