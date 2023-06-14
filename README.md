@@ -1,56 +1,38 @@
 Haultain Fish & Chips Website
 
-Simple overview of use/purpose.
-Description
+Personal project reconstructing a new website for Hualtain Fish & Chips Resturant with similar features.
 
-An in-depth paragraph about your project and overview of use.
 Getting Started
 Dependencies
 
-    Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-    ex. Windows 10
+    React
+    React-icons
 
 Installing
 
-    How/where to download your program
-    Any modifications needed to be made to files/folders
+    1. Download files from github
+    2. Install depdancies - npm install
 
 Executing program
 
-    How to run the program
-    Step-by-step bullets
+    npm start
 
-code blocks for commands
 
-Help
+Authors - 
+Brendan Tran
+@BTran418
 
-Any advise for common problems or issues.
-
-command to run if program contains helper info
-
-Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie
-ex. @DomPizzie
 Version History
 
-    0.2
-        Various bug fixes and optimizations
-        See commit change or See release history
-    0.1
+    1.0
         Initial Release
 
 License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the BTran418 License - see the LICENSE.md file for details
 Acknowledgments
 
 Inspiration, code snippets, etc.
-
-    awesome-readme
-    PurpleBooth
-    dbader
-    zenorocha
-    fvcproductions
+Youtube - https://youtu.be/F627pKNUCVQ?t=12086
+Figma File - https://www.figma.com/file/yvClSI9AZBRX8UaaGEByF3/Modern-UI%2FUX%3A-Gericht?type=design&node-id=53-2&t=7bk0xxOiwvfqsUHL-0
+UI8 Gericht - https://ui8.net/iqonicdesign/products/gericht-restaurant-website-ui-in-figma
