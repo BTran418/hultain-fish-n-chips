@@ -1,6 +1,6 @@
 Haultain Fish & Chips Website
 
-Personal project reconstructing a new website for Hualtain Fish & Chips Resturant with similar features.
+Personal project reconstructing a new website for Hualtain Fish & Chips Resturant.
 
 Dependencies
 
