@@ -1,4 +1,4 @@
-Project Title
+Haultain Fish & Chips Website
 
 Simple overview of use/purpose.
 Description
