@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 import { Navbar } from './components';
-import { AboutUs, Chef, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
+import { AboutUs, FindUs, Footer, Gallery, Header, Intro, Laurels, SpecialMenu } from './container';
 
 const App = () => (
   <div>
@@ -10,9 +10,8 @@ const App = () => (
     <Header />
     <AboutUs />
     <SpecialMenu />
-    <Chef />
-    <Intro />
     <Laurels />
+    <Intro />
     <Gallery />
     <FindUs />
     <Footer />

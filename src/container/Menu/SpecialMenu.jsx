@@ -7,29 +7,36 @@ const SpecialMenu = () => (
   <div className='app__menu flex__center section__padding' id='menu'>
     <div className='app__menu-title'>
       <SubHeading title='Locally Own, Loally Sourced'/>
-      <h1 className='headtext__cormorant'>Today's Special</h1>
+      <h1 className='headtext__cormorant'>Haultain Fish & Chips</h1>
     </div>
 
     <div className='app__menu-menu'>
-      <div className='app__menu-menu__food flex-center'>
-        <p className='app__menu-menu__heading'>Featured Dishes</p>
+      <div className='app__menu-menu__food flex__center'>
+        <p className='app__menu-menu__heading'>Seafood & Fish</p>
         <div className='app__menu-menu__items'>
-          { data.wines.map((wine, index) => (
-            <MenuItem key={ wine.title + index } title={ wine.title } price={ wine.price } tags={ wine.tags }/>
+          { data.diner.map((diner, index) => (
+            <MenuItem key={ diner.title + index } title={ diner.title } price={ diner.price } tags={ diner.tags }/>
           ))}
         </div>
+        <div className='app__wrapper_img seafood'>
+          <img src={ images.SeafoodPlatter } alt="seafood" />
+        </div>
       </div>
-
-      <div className='app__menu-menu__img'>
-        <img src={images.menu} alt="menu img" />
-      </div>
-
-      <div className='app__menu-menu__drinks'>
-        <p className='app__menu-menu__heading'>Featured Drinks</p>
+      
+      <div className='app__menu-menu__drinks flex__center'>
+      <p className='app__menu-menu__heading'>Burgers & More</p>
         <div className='app__menu-menu__items'>
-          { data.cocktails.map((cocktail, index) => (
-            <MenuItem key={ cocktail.title + index } title={ cocktail.title } price={ cocktail.price } tags={ cocktail.tags }/>
+          { data.burger.map((burger, index) => (
+            <MenuItem key={ burger.title + index } title={ burger.title } price={ burger.price } tags={ burger.tags }/>
           ))}
+        </div>
+        <div className='app__menu-menu__drinks flex__center'>
+        <p className='app__menu-menu__heading'>Sides</p>
+        <div className='app__menu-menu__items sides'>
+          { data.takeout.map((takeout, index) => (
+            <MenuItem key={ takeout.title + index } title={ takeout.title } price={ takeout.price } tags={ takeout.tags }/>
+          ))}
+        </div>
         </div>
       </div>
     </div>

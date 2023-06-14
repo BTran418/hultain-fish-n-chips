@@ -12,20 +12,17 @@ const AboutUs = () => (
       <div className='app__aboutus-content_history'>
         <h1 className='headtext__cormorant'>History</h1>
         <img src={ images.spoon } alt="history_spoon" className='history__spoon'/>
-        <p className='p__opensans'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptate laborum aliquam dolorum blanditiis explicabo, rem repellendus at dolorem quos sit itaque quis, aperiam id maxime unde inventore, error nesciunt.</p>
-        <button type='button' className='custom__button'>Learn More</button>
+        <p className='p__opensans'>Haultain Fish & Chips has been in business since 1924, and we make sure that all tourists and Victoria residents alike enjoy every bite! The restaurant serves a menu ranging from their signature halibut to cod, prawns, oysters, scallops, calamari. </p>
       </div>
       <div>
         <img src={ images.knife } alt="history_knife" className='app__aboutus-content_knife'/>
       </div>
       <div className='app__aboutus-content_contact'>
-        <h1 className='headtext__cormorant'>Contact</h1>
-        <img src={ images.spoon } alt="history_spoon" className='history__spoon'/>
-        <p className='p__opensans'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptate laborum aliquam dolorum blanditiis explicabo, rem repellendus at dolorem quos sit itaque quis, aperiam id maxime unde inventore, error nesciunt.</p>
-        <button type='button' className='custom__button'>Contact Us</button>
+        <div style={{padding: '1rem 0 1rem 0'}}><iframe src="https://webapps.9c9media.com/vidi-player/1.9.24/share/iframe.html?currentId=1209455&config=ctvnews/share.json&kruxId=&rsid=&siteName=vancouver island&cid=%5B%7B%22contentId%22%3A1209455%2C%22ad%22%3A%7B%22adsite%22%3A%22ctv.ctvnews%22%2C%22adzone%22%3A%22embed%22%7D%7D%5D" width="450" height="300"frameborder="0" allowfullscreen className='news'></iframe></div>
       </div>
     </div>
   </div>
 );
 
 export default AboutUs;
+

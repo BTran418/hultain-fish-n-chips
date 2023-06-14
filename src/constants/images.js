@@ -1,4 +1,6 @@
+import EatInTakeOut from '../assets/EatInTakeOut.jpg';
 import H from '../assets/H.png';
+import SeafoodPlatter from '../assets/SeafoodPlatter.jpg';
 import award01 from '../assets/award01.png';
 import award02 from '../assets/award02.png';
 import award03 from '../assets/award03.png';
@@ -23,6 +25,8 @@ import welcome from '../assets/welcome.png';
 
 export default {
   bg,
+  SeafoodPlatter,
+  EatInTakeOut,
   chef,
   H,
   gallery01,

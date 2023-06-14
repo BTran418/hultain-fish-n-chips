@@ -1,58 +1,91 @@
 import images from './images';
 
-const wines = [
+const diner = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Halibut',
+    price: '$12.00',
+    tags: '(1 Piece)',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Ling Cod',
+    price: '$10.00',
+    tags: '(1 Piece)',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Oyster',
+    price: '$3.50',
+    tags: '(1 Piece)',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
-  },
-  {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Prawn',
+    price: '$3.50',
+    tags: '(1 Piece)',
   },
 ];
 
-const cocktails = [
+const takeout = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Clam Strips',
+    price: '$8.00',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Calamari',
+    price: '$12.00',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Small Chips',
+    price: '$4.50',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Medium Chips',
+    price: '$7.00',
+
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Large Chips',
+    price: '$8.50',
+  },
+  {
+    title: 'Small Homemade Coleslaw',
+    price: '$4.00',
+  },
+  {
+    title: 'Medium Homemade Coleslaw',
+    price: '$5.50',
+  },
+  {
+    title: 'Large Homemade Coleslaw',
+    price: '$7.00',
+  },
+  {
+    title: 'Homemade Tartar',
+    price: '$3.00',
+  },
+  {
+    title: 'Onion Rings',
+    price: '$6.00',
+  },
+  {
+    title: 'Perogies',
+    price: '$1.25',
+    tags: 'each',
+  },
+];
+
+const burger = [
+  {
+    title: 'Burger',
+    price: '$9.50 - $14.00',
+    tags: 'Halibut, Ling Cod, Prawn, Oyster',
+  },
+  {
+    title: 'Chicken Strips',
+    price: '$2.50',
+    tags: 'each',
+  },
+  {
+    title: 'Zucchini Strips',
+    price: '$8.00',
   },
 ];
 
@@ -60,23 +93,23 @@ const awards = [
   {
     imgUrl: images.award02,
     title: 'Bib Gourmond',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Voted #1 Fish and Chips in Victoria',
   },
   {
     imgUrl: images.award01,
     title: 'Rising Star',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Hottest Resturant in Victoria 2021',
   },
   {
     imgUrl: images.award05,
     title: 'AA Hospitality',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Best Hospitality Multiple Years Running',
   },
   {
     imgUrl: images.award03,
     title: 'Outstanding Chef',
-    subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
+    subtitle: 'Most Oustanding Chef of the Year in Victoria',
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { diner, takeout, awards, burger };

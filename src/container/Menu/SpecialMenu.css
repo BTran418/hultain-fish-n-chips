@@ -30,10 +30,7 @@
     flex: 1;
     width: 100%;
     flex-direction: column;
-}
-
-.app__menu-menu__drinks {
-    margin-top: 4rem;
+    padding: 0 2rem 0 2rem;
 }
 
 .app__menu-menu__img {
@@ -49,9 +46,17 @@
 .app__menu-menu__items {
     display: flex;
     flex-direction: column;
-    margin: 2rem 0;
+    margin: 2rem 2rem 2rem;
     width: 100%;
 }
+.sides {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+  }
 
 @media screen and (max-width: 2000px) {
     .app__menu-menu__img {

@@ -75,6 +75,11 @@
         height: 750px;
         z-index: 0;
     }
+
+    .news {
+        height: 550px;
+        width: 700px;
+    }
 }
 
 @media screen and (max-width: 650px) {
@@ -85,5 +90,10 @@
 
     .app__aboutus-content_knife {
         height: 700px;
+    }
+
+    .news {
+        height: 250px;
+        width: 350px;
     }
 }

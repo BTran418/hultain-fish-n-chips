@@ -23,8 +23,7 @@ const Gallery = () => {
     <div className='app__gallery-content'>
       <SubHeading title='Instagram'/>
       <h1 className='headtext__cormorant'>Photo Gallery</h1>
-      <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem' }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt error accusantium illum necessitatibus tempore voluptates obcaecati perspiciatis sed magni ratione impedit odio nobis unde, natus consequuntur esse totam pariatur veritatis!</p>
-      <button type='button' className='custom__button'>View More</button>
+      <p className='p__opensans' style={{ color: '#AAA', marginTop: '2rem' }}>From the Ocean straight to your table with the freshest ingredients. Everything we make is locally source and locally grown allowing us to keep our prices low and your tummies full! We believe in being able to treat you to a home cooked meal, but still have a luxrious and local feel. Our recipe has been passed down for generations since we have opened in 1924.</p>
     </div>
     <div className='app__gallery-images'>
       <div className='app__gallery-images_container' ref={ scrollRef }>
