@@ -10,7 +10,7 @@ Dependencies
 Installing
 
     1. Download files from github
-    2. Install depdancies - npm install
+    2. Install dependancies - npm install
 
 Executing program
 
